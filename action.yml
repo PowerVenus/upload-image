@@ -19,5 +19,5 @@ outputs:
   url:
     description: 'A URL of the uploaded image.'
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'dist/index.js'
