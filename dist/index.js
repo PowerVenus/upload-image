@@ -275,7 +275,7 @@ exports.getBooleanInput = getBooleanInput;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function setOutput(name, value) {
   process.stdout.write(os.EOL);
-  process.stdout.write(`${name}=${value}${os.EOL}`);
+  process.stdout.write(`GITHUB_ENV=${name}=${value}${os.EOL}`);
 }
 exports.setOutput = setOutput;
 /**
